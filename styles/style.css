@@ -13,6 +13,7 @@
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
+  --background: hsl(231, 54%, 97%);
 }
 
 .main {
@@ -25,7 +26,7 @@
 .card {
   display: flex;
   flex-flow: column wrap;
-  background: var(--very-pale-blue);
+  background: var(--background);
   justify-content: flex-start;
   width: 400px;
   height: 600px;
@@ -60,7 +61,7 @@ p {
 .card div {
   margin: 0 20px 20px 50px;
   width: 300px;
-  background: var(--pale-blue);
+  background: var(--very-pale-blue);
   border-radius: 10px;
   display: flex;
   flex-flow: row nowrap;
