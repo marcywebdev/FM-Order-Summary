@@ -10,7 +10,7 @@
 :root {
   --pale-blue: hsl(225, 100%, 94%);
   --bright-blue: hsl(245, 75%, 52%);
-  --very-pale-blue: hsl(225, 100%, 98%);
+  --very-pale-white: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
   --background: hsl(231, 54%, 97%);
@@ -26,7 +26,7 @@
 .card {
   display: flex;
   flex-flow: column wrap;
-  background: var(--background);
+  background: #fff;
   justify-content: flex-start;
   width: 400px;
   height: 600px;
@@ -61,7 +61,7 @@ p {
 .card div {
   margin: 0 20px 20px 50px;
   width: 300px;
-  background: var(--very-pale-blue);
+  background: #eef0fc9c;
   border-radius: 10px;
   display: flex;
   flex-flow: row nowrap;
@@ -96,14 +96,14 @@ div span b {
 }
 .card div button:hover {
   filter: opacity(0.6);
-  color: var(--bright-blue);
+  color: hsl(245, 75%, 52%);
   text-decoration: none;
 }
 button:nth-last-of-type(2) {
   margin: 0 20px 20px 50px;
   width: 300px;
   height: 40px;
-  background: hsl(245, 75%, 52%);
+  background: var(--bright-blue);
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -119,7 +119,7 @@ button:last-of-type {
   width: 300px;
   height: 35px;
   background: transparent;
-  color: hsl(224, 23%, 55%);
+  color: var(--desaturated-blue);
   border: none;
   border-radius: 10px;
   font-weight: 700;
